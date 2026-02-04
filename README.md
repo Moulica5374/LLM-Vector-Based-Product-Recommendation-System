@@ -19,11 +19,23 @@ A production-ready recommendation system that uses semantic embeddings to find s
 - Sub-100ms query latency
 - Beautiful web interface for easy interaction
 
-## Demo Video
+## Application Screenshots
+![App Overview](images/Similar_products)
 
-> Add your video link here after recording
+(images/Recommendation_based_carts)
 
-[![Demo Video](https://img.shields.io/badge/Watch-Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/your-video-link)
+## Vector DataBase Metrics
+
+(images/pinecone1)
+
+
+(images/pinecone2)
+
+
+(images/pinecone3)
+
+
+
 
 ## Tech Stack
 

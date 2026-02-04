@@ -24,7 +24,7 @@ A production-ready recommendation system that uses semantic embeddings to find s
 ![App Overview](images/Similar_products.png)
 
 ### Recommendation Based on Cart
-![Personalized Recommendations](images/Recommendation_based_carts.png)
+![Personalized Recommendations](images/Recommendation_based_cart.png)
 
 ## Vector Database Metrics
 
@@ -35,7 +35,8 @@ A production-ready recommendation system that uses semantic embeddings to find s
 ![Pinecone Metrics 2](images/pinecone2.png)
 
 ### Pinecone Dashboard - Statistics
-![Pinecone Metrics 3](images/pinecone3.png)
+![Pinecone Metrics 3](images/pinecone3 .png)
+
 
 
 

@@ -19,20 +19,23 @@ A production-ready recommendation system that uses semantic embeddings to find s
 - Sub-100ms query latency
 - Beautiful web interface for easy interaction
 
-## Application Screenshots
-![App Overview](images/Similar_products)
 
-(images/Recommendation_based_carts)
+### Similar Products Feature
+![App Overview](images/Similar_products.png)
 
-## Vector DataBase Metrics
+### Recommendation Based on Cart
+![Personalized Recommendations](images/Recommendation_based_carts.png)
 
-(images/pinecone1)
+## Vector Database Metrics
 
+### Pinecone Dashboard - Overview
+![Pinecone Metrics 1](images/pinecone1.png)
 
-(images/pinecone2)
+### Pinecone Dashboard - Performance
+![Pinecone Metrics 2](images/pinecone2.png)
 
-
-(images/pinecone3)
+### Pinecone Dashboard - Statistics
+![Pinecone Metrics 3](images/pinecone3.png)
 
 
 

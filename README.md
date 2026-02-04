@@ -30,3 +30,54 @@ Tech Stack
 -  **Serverless vector database** with automatic scaling
 -  **Cosine similarity** search for product recommendations
 -  Direct **S3 integration** for scalable data pipeline
+
+
+
+## Usage
+
+### **Data Ingestion**
+```bash
+python scripts/01_ingest_data.py
+```
+Downloads 20K amazon beauty products from HuggingFace [https://github.com/hyp1231/AmazonReviews2023/blob/main/amazon-c4/README.md] → S3 
+
+###  **Data Preprocessing**
+```bash
+python scripts/02_preprocess_data.py
+```
+Cleans and formats product data for embedding generation
+
+###  **Generate Embeddings**
+```bash
+python scripts/03_generate_embeddings.py
+```
+Creates 1536-dim vectors using OpenAI API (batched for efficiency)
+
+###  **Initialize Pinecone Index**
+```bash
+python scripts/04_setup_pinecone.py
+```
+Sets up vector database with cosine similarity metric
+
+###  **Upload to Vector DB**
+```bash
+python scripts/05_upload_embeddings.py
+```
+Loads embeddings into Pinecone for similarity search
+
+---
+
+
+### Lessons Learned 
+
+- While creating the embedding being very cautios about out of memory issues 
+Implemented
+    - Using Batch Size
+    - Chunking
+
+- While loading the embeddings into the vector database
+  Implemented
+    - Using Batch Size
+    - Chunking
+Other techniques 
+- 

@@ -35,7 +35,7 @@ A production-ready recommendation system that uses semantic embeddings to find s
 ![Pinecone Metrics 2](images/pinecone2.png)
 
 ### Pinecone Dashboard - Statistics
-![Pinecone Metrics 3](images/pinecone3 .png)
+![Pinecone Metrics 3](images/pinecone3.png)
 
 
 

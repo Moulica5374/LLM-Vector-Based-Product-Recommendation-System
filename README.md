@@ -80,4 +80,5 @@ Implemented
     - Using Batch Size
     - Chunking
 Other techniques 
-- 
+-  Use PyArrow's streaming (most memory efficient)
+
